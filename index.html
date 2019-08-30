@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Random</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href = "style.css"> 
+		<link rel="SHORTCUT ICON" href="images/icon.png" type="image/png">
+		<meta name="description" content="Генерация целых и дробных случайных чисел. Простой генератор рандомных чисел.">
+		<meta name="keywords" content="Рандом, числа, рандомные числа, случайные числа, генератор случайных чисел">
+	</head>	
+<body>
+	<div id="copiedTipContainer">
+		Copied to clipboard
+	</div>
+	<div class="allContainer" >
+		<div class="mainMenuH1">
+		<h1 class="h1">Random Generator</h1>
+			<div class="mainMenu">
+				<div class="menuContainer">
+				<p class="h1Diapason">Enter diapason</p>	
+					<div class="imput">
+					<div class="imputH1">
+					<br>From To</br>
+					</div>
+					<div class="imput1">
+						<form id="form1">
+							<input type="text" id="imput1"></imput>
+							</div>
+							<div class="imput2">
+							<input type="text" id="imput2"></imput>
+							</div>
+							</div>			
+							<div class="radioBlock">
+							<input id="radio11" type="radio" name="tp" value="round" checked="checked">Integer
+							<input id="radio22" type="radio" name="tp" value="float">Fractional
+							</div>
+						</form>
+					<div id="buttonGenerate" class="button_Generate" data-clipboard-target="#result" onclick="generate()" >
+					<p id="buttonGenerateH1" >Generate</p>	
+					</div>
+					<div class="resultBlock" id="resBlock">
+					<p id="result">Result</p>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="barContainer">
+	<div id="bar">
+		<span id="href">
+		CREATED BY 
+			<a href="https://vk.com/petrovsiychuk" id="hreff" target="_blank" >
+			P T R
+			</a>
+		</span>
+		<div id="barSt1" onclick="bar1Active()">
+		<img id="barSt1Img" src="images/people-2.png">
+		</div>
+	</div>
+	<div id="bar2">
+	<div id="barSt2" onclick="bar2Active()">
+	<img id="barSt2Img" src="images/sign2.png">
+		</div>
+		<span id="href2" >
+		True random number generator
+		using standard method 
+		of randomize in JS
+		</span>
+		
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="clipboard.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82478814-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

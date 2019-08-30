@@ -1,0 +1,420 @@
+@media screen {
+body{
+	background: url(images/shattered.png);
+	background-repeat: repeat;
+	margin:0;
+}
+
+.allContainer {
+}
+
+#tipDiv{
+	position: absolute;
+	width: 100%;
+}
+
+#copiedTipContainer{
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	top: -10%;
+	margin: auto;
+	animation-duration: 1s;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
+}
+ @keyframes tip{
+    0%, 100%{top: -10%;} 
+    30% {top: 0%;}
+    60% {top: 0%;}
+}
+
+#copiedTip{
+	position: absolute;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.mainMenu{
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+
+	background: url(images/op2.png);
+	border: solid 3px grey;
+
+}
+
+.h1{
+	margin-top: 7%;
+	text-align: center;	
+	margin-bottom: 3%;
+
+	font-family: "Courier New", Courier, monospace;
+	color: #585858;
+	font-size: 60px;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+
+}
+
+.mainMenuH1{
+
+}
+
+.menuContainer{
+
+
+}
+.h1Diapason{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 10px;
+
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-family:  "Courier New", Courier, monospace;
+	color: #585858;
+	font-weight: 500;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  cursor: default;
+}
+
+.imput {
+	margin-left: 110px;
+
+
+}
+.imput input{
+	font-size: 16px;
+	font-family:  "Courier New", Courier, monospace;
+	background: white;
+	border: 1px solid grey;
+}
+
+
+#imput1 {
+float: left;
+height: 20px;
+background-image: url(images/op2.png);
+}
+#imput2 {
+height: 20px;
+margin-left: 3px;
+background-image: url(images/op2.png);
+}
+
+.imputH1{
+	font-family:  "Courier New", Courier, monospace;
+	word-spacing: 150px;
+	text-align: left;
+	color: #585858;
+	font-size: 20px;
+	padding-left: 85px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	margin: auto;
+	cursor: default;
+}
+
+#radio11{
+	cursor: pointer;
+	color: #686868;
+}
+
+#radio22{
+	cursor: pointer;
+	color: #686868;
+}
+
+#buttonGenerate{
+	margin-top: 20px;
+	margin-left: 37.2%;
+	background-image: url(images/op2.png);
+	width: 150px;
+	height: 70px;
+	cursor: pointer;
+	box-shadow: 1px 0px 11px 1px rgba(0,0,0,0.41);
+}
+
+#buttonGenerate:active {
+	margin-top:20px;
+	margin-left: 37.2%;
+	width:	150px;
+	height: 70px;
+	box-shadow: 1px 0px 11px -2px rgba(0,0,0,0.41);
+}
+
+#buttonGenerateH1{
+	text-align: center;
+	padding-top: 21px;
+	font-family: "Courier New", Courier, monospace;
+	color:  #585858;
+	font-size: 25px;
+	cursor: pointer;
+  
+  -webkit-user-select: none;
+-moz-user-select: none;
+
+}
+
+.resultBlock{
+	width:250px;
+	box-shadow: 1px 0px 11px 1px rgba(0,0,0,0.41);
+	height: 100px;
+	text-align: center;
+	background-image: url(images/op2.png);
+	margin: auto;
+	
+}
+
+#result{
+
+	font-family: "Courier New", Courier, monospace;
+	color:  #585858;
+	font-size: 40px;
+	cursor: default;
+  	margin-top: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    padding-top: 25px;	
+
+}
+
+.radioBlock{
+	margin-top: 10px;
+	font-family: "Courier New", Courier, monospace;
+	color:  #585858;
+	font-size: 20px;
+	cursor: default;
+	margin-left: 30%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#barContainer{
+	position: absolute;
+	top: 75%;
+}
+
+#bar{
+	list-style-type: none;
+	position: relative; 
+
+    left:-250px; 
+    margin: 0;  
+    height: 35px;
+
+    background: url(images/op3.png); 
+    color: black; 
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    cursor: pointer;
+    
+    transition: left 1s ease-out;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+#barSt1{
+	width: 30px;
+	height: 35px;
+	float: right;
+	transition: left 1s ease-out;
+}
+
+#barSt1Img{
+	padding-right: 1px;
+	padding-top: 3px;
+	height: 29px;
+
+}
+
+#barSt2Img{
+position: relative;
+left: -10px;
+height: 50px;
+
+padding-top: 13px;
+}
+
+#bar2 {
+	list-style-type: none; 
+	position: relative;
+    left:-250px; 
+    margin-top: 20px;  
+    width: 280px;
+
+  	background: url(images/op3.png);
+    color: black; 
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-align: center; 
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    cursor: pointer;
+    transition: left 1s ease-out;
+     
+
+    }
+
+#barSt2{
+	width: 30px;
+	height: 75px;
+	float: right;
+   
+}
+
+
+
+#href{
+	letter-spacing: 4px;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+#href2{
+	font-size: 20px;
+
+}
+
+#hreff{
+	color: #585858;
+	text-decoration: none;
+	transition: 1s ease;
+}
+
+#hreff:hover{
+	color: grey;
+}
+
+
+
+
+
+#vp{
+font-size: 20px;
+
+}
+}
+
+
+
+@media handheld,(max-device-width:480px) {
+
+
+body{
+	background-image: none;
+	
+}
+
+#bar{
+	opacity: 0;
+
+}
+#bar2{
+	opacity: 0;
+}
+
+
+.mainMenu{
+background: transparent;
+border: none;
+width: 100%;
+height: 100%;
+margin: auto;
+}
+/*
+.menuContainer{
+	margin:auto;
+}
+.h1{
+	padding-top: 0px;
+	margin-top: 0;
+
+}
+
+.h1Diapason{
+	font-size: 250%;
+}
+
+.imputH1{
+	font-size: 200%;
+	padding-left: 16%;
+	word-spacing: 600%;
+}
+.imput{
+	padding-left: 0;
+	margin-left: 10%;
+}
+#imput1{
+	max-width: 45%;
+	height: 35px;
+	font-size: 250%;
+}
+#imput2{
+	max-width: 45%;
+	height: 35px;
+	font-size: 250%;
+}
+
+
+
+.radioBlock{
+	margin-top: 5%;
+	margin-left: 25%;
+}
+
+#radio11{
+	transform: scale(1.5, 1.5); 
+}
+#radio22{
+	transform: scale(1.5, 1.5); 
+}
+
+
+#buttonGenerate{
+	height: 100px;
+	width: 250px;
+	margin-left: 25%;
+-webkit-user-select: none;
+}
+#buttonGenerate:active{
+	height: 100px;
+	width: 250px;
+	margin-left: 25%;	
+	-webkit-user-select: none;
+}
+#buttonGenerateH1{
+	font-size: 45px;
+}
+
+.resultBlock{
+	margin-top: 10%;
+	margin-left: 25%;
+	height: 100px;
+}
+
+#result{
+
+font-size: 40px;
+}
+*/
+
+.radioBlock{
+	margin-left: 25%;
+}
+
+}
+
